@@ -1,5 +1,7 @@
-is/equinox/cloudflow/source/stockexchange/Interface.java
- is.equinox.cloudflow.source.stockexchange.Interface
+is/equinox/cloudflow/source/stockexchange/ReadProperties.java
+ is.equinox.cloudflow.source.stockexchange.ReadProperties
+is/equinox/cloudflow/source/stockexchange/StockController.java
+ is.equinox.cloudflow.source.stockexchange.StockController
 is/equinox/cloudflow/source/stockexchange/StockProcessor.java
  is.equinox.cloudflow.source.stockexchange.StockProcessor
 is/equinox/cloudflow/source/stockexchange/AppEntry.java

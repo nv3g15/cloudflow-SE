@@ -1,0 +1,10 @@
+is/equinox/cloudflow/source/stockexchange/StockAppEntry.java
+ is.equinox.cloudflow.source.stockexchange.StockAppEntry
+is/equinox/cloudflow/source/stockexchange/StockReadProperties.java
+ is.equinox.cloudflow.source.stockexchange.StockReadProperties
+is/equinox/cloudflow/source/stockexchange/StockApplication.java
+ is.equinox.cloudflow.source.stockexchange.StockApplication
+is/equinox/cloudflow/source/stockexchange/StockController.java
+ is.equinox.cloudflow.source.stockexchange.StockController
+is/equinox/cloudflow/source/stockexchange/StockProcessor.java
+ is.equinox.cloudflow.source.stockexchange.StockProcessor

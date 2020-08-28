@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="is.equinox.cloudflow.source.stockexchange.StockExchangeSourceStockAppEntryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-08-26T12:28:21" hostname="NMP" time="1.898">
+  <properties/>
+  <testcase name="goodParameter_readTest()" classname="is.equinox.cloudflow.source.stockexchange.StockExchangeSourceStockAppEntryTest" time="1.512"/>
+  <testcase name="goodParameter_Test()" classname="is.equinox.cloudflow.source.stockexchange.StockExchangeSourceStockAppEntryTest" time="0.107"/>
+  <testcase name="badParameter_Test()" classname="is.equinox.cloudflow.source.stockexchange.StockExchangeSourceStockAppEntryTest" time="0.274"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

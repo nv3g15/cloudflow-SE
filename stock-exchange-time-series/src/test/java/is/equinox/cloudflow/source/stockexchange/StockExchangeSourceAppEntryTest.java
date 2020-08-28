@@ -8,16 +8,21 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class StockExchangeSourceAppEntryTest {
 
+    StockProcessor processor = new StockProcessor();
+
     @Test
-    public void badParameter_quoteTest() throws IOException {
-        Interface.setParams("TIME_SERIES_DAILY","TSLAr","A5K060RWV2X3BVP5");
-        assertNull(StockProcessor.formatStocks());
+    void badParameter_Test() throws IOException {
+        assertNull(processor.formatStocks("historical-chart/1min/","TSLAr?", "d516597aa6499ad22b6c24d8ae06686d"));
     }
 
     @Test
-    public void goodParameter_quoteTest() throws IOException {
-        Interface.setParams("TIME_SERIES_DAILY","TSLA","A5K060RWV2X3BVP5");
-        assertNotNull(StockProcessor.formatStocks());
+    void goodParameter_Test() throws IOException {
+        assertNotNull(processor.formatStocks("historical-chart/1min/","TSLA?", "d516597aa6499ad22b6c24d8ae06686d"));
+    }
+
+    @Test
+    void goodParameter_readTest() throws IOException {
+        assertNotNull(processor.formatStocks());
     }
 }
 

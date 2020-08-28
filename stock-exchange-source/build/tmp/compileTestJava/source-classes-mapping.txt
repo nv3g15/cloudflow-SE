@@ -1,0 +1,2 @@
+is/equinox/cloudflow/source/stockexchange/StockExchangeSourceStockAppEntryTest.java
+ is.equinox.cloudflow.source.stockexchange.StockExchangeSourceStockAppEntryTest

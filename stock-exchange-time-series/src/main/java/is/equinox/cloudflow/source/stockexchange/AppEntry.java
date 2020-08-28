@@ -2,14 +2,14 @@ package is.equinox.cloudflow.source.stockexchange;
 
 import org.springframework.context.annotation.ComponentScan;
 
-import java.util.Arrays;
-
 @ComponentScan(basePackages = {"is.equinox"})
 public class AppEntry {
 
     public static void main(String[] args) throws Exception {
-        Double[] output = StockProcessor.formatStocks();
+        StockProcessor processor = new StockProcessor();
 
-        System.out.println(Arrays.toString(output));
+        String[] output = processor.formatStocks();
+
+        processor.write(output);
     }
 }
