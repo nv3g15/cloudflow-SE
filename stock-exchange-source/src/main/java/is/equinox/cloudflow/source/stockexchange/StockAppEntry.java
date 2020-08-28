@@ -9,19 +9,17 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
-import java.io.IOException;
-
 @ComponentScan(basePackages = {"is.equinox"})
-public class AppEntry implements ApplicationRunner, ApplicationContextAware {
+public class StockAppEntry implements ApplicationRunner, ApplicationContextAware {
 
     private ConfigurableApplicationContext applicationContext;
 
-    public static void main(String[] args){
-        SpringApplication.run(Application.class, args);
+    public static void main(String[] args) {
+        SpringApplication.run(StockApplication.class, args);
     }
 
     @Override
-    public void run(ApplicationArguments args) throws IOException {
+    public void run(ApplicationArguments args) {
         SpringApplication.exit(applicationContext, () -> 0);
     }
 
